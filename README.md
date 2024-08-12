@@ -1,6 +1,6 @@
-# Hi there 👋, I'm Darien
+# Hello 👋, I'm Darien
 
-I am a computer science graduate from Michigan State University interested in solving complex problems in the fields of robotics and automation. I have recently worked as an application engineer at Kawasaki Robotics, where I consulted with systems integrators and end-users to create automation solutions for different general industry applications using Kawasaki robots.
+I'm a computer science graduate from Michigan State University who is motivated by new technologies and interested in solving complex problems. I have recently worked as an application engineer at Kawasaki Robotics, where I consulted with systems integrators and end-users to create automation solutions for different general industry applications using Kawasaki robots.
 
 <!--
 **Darien-Ford/Darien-Ford** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
