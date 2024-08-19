@@ -2,7 +2,9 @@
 
 I'm a computer science graduate from Michigan State University who is motivated by new technologies and interested in solving complex problems. I have recently worked as an application engineer at Kawasaki Robotics, where I consulted with systems integrators and end-users to create automation solutions for different general industry applications using Kawasaki robots.
 
-### 🧰 Languages and Tools
+---
+
+### 🧰 My Languages and Tools
 
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
 <img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" />
@@ -15,6 +17,12 @@ I'm a computer science graduate from Michigan State University who is motivated 
 <img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 <img align="left" alt="Lua" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" />
 <br />
+
+#
+
+### 📄 My Resume
+
+![Darien Ford Resume](./resume/resume.png)
 
 <!--
 **Darien-Ford/Darien-Ford** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
