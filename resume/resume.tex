@@ -1,15 +1,14 @@
-\documentclass[letterpaper,11pt,roman]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{fontawesome}
+\usepackage{helvet}
 
 
 \pagestyle{fancy}
@@ -17,6 +16,7 @@
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.375in}
@@ -35,6 +35,7 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
+%-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
@@ -45,26 +46,23 @@
 \newcommand{\resumeSubHeading}[2]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textit{#2} \\
+      \textbf{#1} & {#2} \\
     \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeTitle}[2]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & {\small #2} \\
+      {\small#1} & {\small #2} \\
     \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand{\labelitemii}{$\circ$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[label=,leftmargin=]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeTitleStart}{\begin{itemize}[label=,leftmargin=]}
 \newcommand{\resumeTitleEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[label=$\circ$]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=\textbullet]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \begin{document}
@@ -72,12 +70,12 @@
 % HEADER
 \begin{center}
  
-    \textbf{\huge Darien Ford} \\
-    \bigskip
+    \textbf{\huge Darien Ford}
+    \bigskip\\
  
 \begin{tabular}{c c c c c}
 
-    \href{mailto:darien.ford99@gmail.com}{\faEnvelope\enspace\ darien.ford99@gmail.com} & \href{https://www.darien-ford.com}{\faGlobe\enspace darien-ford.com} & \href{https://www.linkedin.com/in/darienford/}{\faLinkedin\enspace in/darienford} & \href{https://www.github.com/Darien-Ford}{\faGithub\enspace GitHub}\\
+    \href{mailto:darien.ford99@gmail.com}{\faEnvelopeO\enspace\ darien.ford99@gmail.com} & \href{https://www.darien-ford.com}{\faDesktop\enspace darien-ford.com} & \href{https://www.linkedin.com/in/darienford/}{\faLinkedin\enspace in/darienford} & \href{https://www.github.com/Darien-Ford}{\faGithub\enspace GitHub}\\
     
 \end{tabular}
     
@@ -89,16 +87,16 @@
 
     \resumeSubHeading{Kawasaki Robotics}{Wixom, Michigan}\\
         \resumeTitleListStart
-            \resumeTitle{Application Engineer}{09/23 - 01/24}
+            \resumeTitle{Application Engineer}{09/2023 - 01/2024}
                 \resumeItemListStart
                     \resumeItem{Developed a palletizing software package for 4 and 6-axis Kawasaki Robots using the AS programming language and implemented it on-site at multiple customers.}
                     \resumeItem{Created robot programs for customer trade show booths that showcased the capabilities of their automation cells.}
-                    \resumeItem{Conducted reach studies, speed tests, and cycle-time analysis in simulated environments and real-world applications.}
+                    \resumeItem{Conducted reach studies, speed tests, and cycle-time analysis in simulated and real-world environments.}
                     \resumeItem{Performed software and hardware testing of new robots and created test cells and specialized tooling needed for tests.}
                     \resumeItem{Consulted with systems integrators and end-users to develop robotic automation solutions, conducted on-site training on robot programming, and provided remote technical support concerning robot I/O and robot-PLC communication.}
                 \resumeItemListEnd
 
-            \resumeTitle{Field Service Engineer}{04/23 - 09/24}
+            \resumeTitle{Field Service Engineer}{04/2023 - 09/2024}
                 \resumeItemListStart
                     \resumeItem{Supported customers on-site and remotely by diagnosing and resolving mechanical, electrical, and software complications related to robot functionality.}
                     \resumeItem{Collaborated with the service team and engineering department to develop robotic automation solutions for systems integrators and end-users that improve customer retention and satisfaction.}
@@ -107,14 +105,14 @@
 
     \resumeSubHeading{Woco Tech USA}{Novi, Michigan}\\
         \resumeTitleListStart
-            \resumeTitle{Design Engineer Intern}{06/19 - 08/21}
+            \resumeTitle{Design Engineer Intern}{06/2019 - 08/2021}
                 \resumeItemListStart
                     \resumeItem{Created design proposals and updated existing designs to meet customers’ specifications.}
                     \resumeItem{Produced technical drawings and presentations for customers.}
                     \resumeItem{Reviewed and revised designs for tooling and manufacturing feasibility.}
                 \resumeItemListEnd
 
-            \resumeTitle{Engineering Intern}{05/17 - 08/17}
+            \resumeTitle{Engineering Intern}{05/2017 - 08/2017}
                 \resumeItemListStart
                     \resumeItem{Ensured that automotive parts were made to specification through tolerance testing.}
                     \resumeItem{Responsible for quality review and inspection of both production and prototype parts while adhering to strict time constraints and standards.}
@@ -128,13 +126,13 @@
 \section{Projects}
     \resumeSubHeadingListStart
     
-        \resumeSubHeading{Mobile Train Handling Simulator}\\
+        \resumeSubHeading{\href{http://www.capstone.cse.msu.edu/2022-08/projects/union-pacific/}{Mobile Train Handling Simulator}}{\small09/2022 - 12/2022}\\
             \resumeItemListStart
                 \resumeItem{Led a team of six students in Michigan State University’s computer science capstone course to design and build a mobile train handling simulator following the Agile methodology for the Union Pacific Railroad Company.}
                 \resumeItem{Created for a Microsoft Surface Tablet and implemented with C\# using the Unity game engine, Microsoft's .NET framework on Windows, and a proprietary train-physics engine created by PS Technology.}
             \resumeItemListEnd
         
-        \resumeSubHeading{Portfolio Website}\\
+        \resumeSubHeading{\href{https://github.com/Darien-Ford/Portfolio_Website}{Portfolio Website}}{\small08/2024 - Present}\\
             \resumeItemListStart
                 \resumeItem{Created a portfolio/resume website using the React framework and Vite (HTML, CSS, JavaScript).}
                 \resumeItem{Set up auto-deployment to Hostinger from a repository using GitHub actions.}
@@ -147,7 +145,7 @@
     \resumeSubHeadingListStart
         \resumeSubHeading{Michigan State University}{East Lansing, Michigan}
             \resumeTitleListStart
-                \resumeTitle{Bachelor of Science, Computer Science; \textit{Minor in Business}}{08/17 - 12/22}
+                \resumeTitle{Bachelor of Science, Computer Science; Minor in Business}{08/2017 - 12/2022}
             \resumeTitleListEnd
         \resumeSubHeadingListEnd
 
@@ -162,3 +160,4 @@
     \resumeItemListEnd
 
 \end{document}
+
